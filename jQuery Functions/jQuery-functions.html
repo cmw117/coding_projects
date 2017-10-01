@@ -1,0 +1,113 @@
+
+   
+    .click
+    .hide
+    .show
+    .toggle
+    .slideDown
+    .slideUp
+    .slideToggle
+    .fadeIn
+    .fadeOut
+    .addClass
+    .before
+    .after
+    .append
+    .html
+    .attr
+    .val
+    .text
+    .data
+
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery Functions</title>
+    <link rel = "stylesheet" type = "text/css" href = "style-7.css" />
+    <script type = "text/javascript"
+    src= "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type = "text/javascript">
+    $(document).ready(function(){
+      $('button.AddClass').click(function(){
+        $('p.AddClass').addClass('purple');
+      })
+      $('button.slideToggle').click(function(){
+        $('p.slideToggle').slideToggle('slow');
+      })
+      $('button.append').click(function(){
+        $('p.append').append('<p>MORE WORDS</p>')
+      })
+      $('button.hide').click(function(){
+        $('p.hide').hide('slow');
+      })
+      $('button.show').click(function(){
+        $('p.show').show('200');
+      })
+      $('button.toggle').click(function(){
+        $('p.toggle').toggle('fast');
+      })
+      $('button.down').click(function(){
+        $('img').slideDown('slow')
+      })
+      $('button.up').click(function(){
+        $('img').slideUp('slow')
+      })
+      $('button.fadeIn').click(function(){
+        $('img').fadeIn("slow")
+      })
+      $('button.fadeOut').click(function(){
+        $('img').fadeOut("slow")
+      })
+    })
+    </script>
+
+  </head>
+  <body>
+
+    <div>
+      <h1 class = "down up slidetoggle">SLIDING!</h1></h1>
+      <button class = "down">slide down</button></button>
+      <button class = "up">slide up</button></button>
+      <img src = "https://media.mnn.com/assets/images/2014/05/kitfoxontree.jpg" alt ="desert fox" />
+    </div>
+
+    <div>
+      <h1 class = "hide show toggle">hide and show</h1></h1>
+      <button class = "hide">hide</button>
+      <button class = "show">show</button>
+      <button class = "toggle">toggle</button>
+      <P class = "hide show toggle"> Click the button to test hide, show and toggle
+        functions</P>
+    </div>
+<div>
+      <h1 class = "fadeIn fadeOut">fade In/Out testing</h1></h1>
+      <button class = "fadeIn">FADING!</button></button>
+      <button class = "fadeOut">fade Out</button></button>
+      <img src = "http://i.imgur.com/eBToa.jpg" alt ="cute baby fox" />
+    </div>
+    <div>
+      <h1 class = "AddClass">AddClass</h1>
+      <button class = "AddClass">AddClass</button>
+      <P class = "AddClass"> Check out what happens!</P>
+    </div>
+
+    <div>
+      <h1 class = "slideToggle">Slidetoggle</h1>
+      <button class = "slideToggle">Slidetoggle</button>
+      <P class = "slideToggle"> Click the button to slidetoggle a hidden image</P>
+    </div>
+
+    <div>
+      <h1 class = "append">Append</h1>
+      <button class = "append">Words</button>
+      <P class = "append"> More Words!</P>
+    </div>
+
+
+
+
+
+
+  </body>
+</html>
