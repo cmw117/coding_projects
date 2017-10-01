@@ -1,0 +1,89 @@
+<DOCTYPE! html>
+<html>
+<head>
+	<title>Disappearing</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<style>
+		img {
+			width: 200px;
+			display: inline-block;
+			float: left;
+			margin: 30px;
+		}
+		#elephants {
+			width: 1000px;
+			background-color: green;
+			color: white;
+			height: 50px;
+
+		}
+		h1 {
+			color: green;
+			margin-left: 300px;
+		}
+		h3 {
+			margin-left: 450px;
+		}
+	</style>
+	<script>
+ $(document).ready(function () {
+        $("#img1").click(function () {
+            $('#img1').toggle("slow");
+        })
+    });
+  $(document).ready(function () {
+        $("#img2").click(function () {
+            $('#img2').toggle("slow");
+        })
+    });
+   $(document).ready(function () {
+        $("#img3").click(function () {
+            $('#img3').toggle("slow");
+        })
+    });
+    $(document).ready(function () {
+        $("#img4").click(function () {
+            $('#img4').toggle("slow");
+        })
+    });
+     $(document).ready(function () {
+        $("#img5").click(function () {
+            $('#img5').toggle("slow");
+        })
+    });
+    
+      $(document).ready(function () {
+        $("#img6").click(function () {
+            $('#img6').toggle("slow");
+        })
+    });
+   $(document).on("click", "#elephants", function(){
+    location.reload(true);
+});
+
+</script>
+ 	<h1>LOOK AT THE ELEPHANTS</h1>
+ 		<h3>CLICK ONE!</h3>
+	<div class="img_box">
+		<img id="img1" src="http://cooldigital.photography/wp-content/uploads/2014/08/25-Cute-Baby-Elephant-Pictures-900x562.jpg" alt="cute-baby-elephant">
+			<div class="img_box">
+		<img id="img2" src="http://cooldigital.photography/wp-content/uploads/2014/08/25-Cute-Baby-Elephant-Pictures-900x562.jpg" alt="cute-baby-elephant">
+			<div class="img_box">
+		<img id="img3" src="http://cooldigital.photography/wp-content/uploads/2014/08/25-Cute-Baby-Elephant-Pictures-900x562.jpg" alt="cute-baby-elephant">
+			<div class="img_box">
+		<img id="img4" src="http://cooldigital.photography/wp-content/uploads/2014/08/25-Cute-Baby-Elephant-Pictures-900x562.jpg" alt="cute-baby-elephant">
+			<div class="img_box">
+		<img id="img5" src="http://cooldigital.photography/wp-content/uploads/2014/08/25-Cute-Baby-Elephant-Pictures-900x562.jpg" alt="cute-baby-elephant">
+			<div class="img_box">
+		<img id="img6" src="http://cooldigital.photography/wp-content/uploads/2014/08/25-Cute-Baby-Elephant-Pictures-900x562.jpg" alt="cute-baby-elephant">
+			<div class="img_box">
+		<img src="http://cooldigital.photography/wp-content/uploads/2014/08/25-Cute-Baby-Elephant-Pictures-900x562.jpg" alt="cute-baby-elephant">
+			<div class="img_box">
+		<img src="http://cooldigital.photography/wp-content/uploads/2014/08/25-Cute-Baby-Elephant-Pictures-900x562.jpg" alt="cute-baby-elephant">
+		<form>
+			       <button id="elephants" type="button">Click Me To See ALL THE BABY ELEPHANTS!</button> 
+		</form>
+</body>
+</html>
