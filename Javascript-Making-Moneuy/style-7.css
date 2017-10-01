@@ -1,0 +1,40 @@
+body {
+background: -webkit-linear-gradient(bottom, green, white);
+height: 900px;
+}
+
+
+h1 {
+color:black;
+width: 970px;
+background: -webkit-linear-gradient(left, green, #f0f0f5);
+padding:10px 0px 10px 15px;
+}
+h2 {
+  padding-left: 15px;
+  color: #4d0026;
+}
+.div1 {
+  background-color: white;
+  width: 32%;
+  height: 400px;
+  display: inline-block;
+  text-align: center;
+  margin: 4px;
+}
+.div2 {
+  background-color: white;
+  width: 32%;
+  height: 400px;
+  display: inline-block;
+  text-align: center;
+  margin: 4px;
+}
+.div3 {
+  background-color: white;
+  width: 32%;
+  height: 400px;
+  display: inline-block;
+  text-align: center;
+  margin: 4px;
+}
