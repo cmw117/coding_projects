@@ -1,0 +1,155 @@
+body {
+  background-color: #265175;
+  font-family: sans-serif;
+}
+.head a {
+  color:yellow;
+  text-align: right;
+
+}
+input {
+  width: 120px;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.head p {
+  color:white;
+  text-align:right;
+  display: inline-block;
+  margin-left:510px;
+}
+button {
+  background-color: #265175;
+  border: 2px #e6e6e6 solid;
+  border-radius: 2px;
+  padding: 3px;
+  width: 35px;
+  color: white;
+}
+form {
+  background-color: #595959;
+  width: 200px;
+  height: 40px;
+  padding: 10px;
+  margin-left: 230px;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+.navigation a {
+  color:white;
+  text-decoration: none;
+}
+img {
+  width: 50%;
+  display: inline-block;
+}
+.navigation li{
+  backround-color: #2882d7;
+  text-align: center;
+  padding:10px;
+  display: inline-block;
+  font-size: 22px;
+  list-style-type: none;
+  text-decoration: none;
+  overflow: visible;
+
+}
+.navigation ul {
+  background-color:#2882d7;
+  width: 770px;
+  text-align: center;
+  box-shadow: 3px 5px black;
+  border-radius: 3px;
+}
+.navigation {
+  margin-left: 100px;
+  margin-bottom: 25px;
+  height: 45px;
+
+}
+.sidebar {
+  width: 200px;
+  display:inline-block;
+  text-align: center;
+  vertical-align: top;
+  padding-top: 20px;
+  line-height: 150%;
+  font-family: Arial;
+  color: yellow;
+}
+.sidebar a {
+  color: white;
+}
+.text {
+  width: 600px;
+  display: inline-block;
+  margin-left: 60px;
+  font-size: 14px;
+  color: white;
+
+}
+.text p {
+  color: white;
+  width: 600px;
+  line-height: 120%;
+}
+#quote {
+  color:yellow;
+  font-style: italic;
+  font-size: 17px;
+  font-type: san-serif;
+  line-height: 130%;
+}
+.whitebox {
+  background-color:white;
+  height: 350px;
+  width:1000px;
+  color: 4da6ff;
+}
+.whitebox a, p{
+  width: 400px;
+  color: #4da6ff;
+  text-align: center;
+}
+.how {
+  width:450px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+.how p {
+  padding: 0px 75px 0px 75px;
+  font-size:15px;
+  color: black;
+}
+.how li {
+  line-height: 140%;
+}
+h4 {
+  font-family: "Arial";
+  letter-spacing: 2px;
+  font-size: 16px
+}
+.footer {
+  padding: 20px 120px;
+  color: #2882d7;
+  font-size: 10px;
+}
+
+.footer a{
+  color: #2882d7;
+  text-decoration: none;
+  padding: 25px;
+  text-align: center;
+  font-size:17px;
+}
+.footer p {
+  text-align: center;
+  margin-left: 145px;
+}
+@media (max-width: 756px){
+}
+
+@media (max-width: 756px){
+}
